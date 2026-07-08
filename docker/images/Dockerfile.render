@@ -10,7 +10,7 @@ RUN pip install ipython
 
 WORKDIR /app
 
-RUN git https://github.com/frajimmor2/EGC-2324-1530.git .
+RUN git clone https://github.com/frajimmor2/EGC-2324-1530.git .
 RUN pip install -r requirements.txt
 
 WORKDIR /app/decide
